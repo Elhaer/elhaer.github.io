@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Documentation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Project LHR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#setup">Setup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="container my-5">
+        <!-- Overview Section -->
+        <section id="overview" class="mb-5">
+            <h2 class="mb-3">Overview</h2>
+            <p>Project LHR (Lalu Lintas Harian Rata-rata) is designed to simplify traffic data collection and analysis
+                using a combination of offline systems, Android applications, and artificial intelligence. The project
+                ensures accurate and efficient reporting for relevant authorities.</p>
+        </section>
+        <!-- Features Section -->
+        <section id="features" class="mb-5">
+            <h2 class="mb-3">Features</h2>
+            <ul>
+                <li>Offline mode for field teams.</li>
+                <li>Online mode for government authorities.</li>
+                <li>Android app developed with Kodular for manual data input.</li>
+                <li>AI-based vehicle counting system.</li>
+                <li>Integration with Google Drive for document storage.</li>
+            </ul>
+        </section>
+        <!-- Setup Section -->
+        <section id="setup" class="mb-5">
+            <h2 class="mb-3">Setup Instructions</h2>
+            <ol>
+                <li>Download and install <strong>XAMPP</strong> or <strong>WAMP</strong> for the local server.</li>
+                <li>Place project files in the appropriate folder (e.g., <code>htdocs</code> for XAMPP).</li>
+                <li>Create a database using phpMyAdmin and import the provided SQL file.</li>
+                <li>Update database configuration in the <code>config.php</code> file.</li>
+                <li>Start Apache and MySQL services, then access the website via <a
+                        href="http://localhost">http://localhost</a>.</li>
+            </ol>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="mb-3">Contact</h2>
+            <p>If you have any questions or issues, please contact the project team at <a
+                    href="mailto:support@lhrproject.com">support@lhrproject.com</a>.</p>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Copyright &copy; 2024 Project LHR. All Rights Reserved.</p>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
