@@ -13,6 +13,19 @@
         body {
             font-family: "Courier New", Courier, monospace;
         }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
     </style>
 </head>
 
@@ -29,12 +42,23 @@
     </nav>
     <!-- Konten Utama -->
     <div class="container my-5">
+        <div class="video-container">
+            <iframe
+                src="https://www.youtube-nocookie.com/embed/OrOfY4OpAWs?si=tf0akmppG0Cvl8OD&amp;controls=0&amp;start=9&amp;autoplay=1&amp;loop=1&amp;playlist=OrOfY4OpAWs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
         <!-- Bagian Overview -->
         <section id="overview" class="mb-5">
             <h2 class="mb-3">Gambaran Umum</h2>
             <p>Proyek LHR (Lalu Lintas Harian Rata-rata) dirancang untuk menyederhanakan pengumpulan dan analisis data
                 lalu lintas menggunakan kombinasi sistem offline, aplikasi Android, dan kecerdasan buatan. Proyek ini
-                memastikan pelaporan yang akurat dan efisien bagi otoritas terkait.</p>
+                memastikan pelaporan yang akurat dan efisien bagi otoritas terkait. Semua dokumentasi file disimpan di
+                <a href=\"https://drive.google.com/open?id=1IiGp_b8m_-ZgJZNauMvtoF_cEvWFRIto&usp=drive_fs\"
+                    target=\"_blank\">Google Drive</a>, dan sisanya masih berada di dalam server lama dan server skupi.
+            </p>
         </section>
         <!-- Bagian Fitur -->
         <section id="features" class="mb-5">
@@ -57,6 +81,7 @@
                     <tr>
                         <th>No</th>
                         <th>Nama</th>
+                        <th>Kategori</th>
                         <th>Letak</th>
                         <th>Keterangan</th>
                     </tr>
@@ -64,27 +89,43 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Folder Utama</td>
-                        <td>LHR_Proyek_2024</td>
-                        <td>Folder utama proyek yang berisi semua sub-folder dan file terkait.</td>
+                        <td>AKUN GOOGLE</td>
+                        <td>Manajemen Akun</td>
+                        <td><a href="https://drive.google.com/drive/folders/1-2wWTzJPkVcOoHGoJ3VTCz93DQQUP6As"
+                                target="_blank">Google Drive</a></td>
+                        <td>Berisi informasi akun elhaer24@gmail.com, Ngara</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Laporan</td>
-                        <td>LHR_Proyek_2024/Laporan</td>
-                        <td>Berisi laporan lalu lintas harian.</td>
+                        <td>ANDROID APK</td>
+                        <td>Pengembangan Aplikasi</td>
+                        <td><a href="https://drive.google.com/drive/folders/1-BRK7JmIK6l0EELBUW9X-mMvR7STW44"
+                                target="_blank">Google Drive</a></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Dokumen</td>
-                        <td>LHR_Proyek_2024/Dokumen</td>
-                        <td>Berisi dokumen administratif dan teknis.</td>
+                        <td>DOKUMEN LHR 2024</td>
+                        <td>Dokumentasi</td>
+                        <td><a href="https://drive.google.com/open?id=10r7aaxbWvOmHjRXYTcgnNvtFoNq_kDL"
+                                target="_blank">Google Drive</a></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Data Mentah</td>
-                        <td>LHR_Proyek_2024/Data_Raw</td>
-                        <td>Berisi data mentah yang dihasilkan dari aplikasi lapangan.</td>
+                        <td>KECERDASAN BUATAN</td>
+                        <td>Teknologi</td>
+                        <td><a href="https://drive.google.com/open?id=1-B1_UZ0g5CMth5aj3mNH6ZT4" target="_blank">Google
+                                Drive</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>PENGELOLA VIDEO</td>
+                        <td>Multimedia</td>
+                        <td><a href="https://drive.google.com/open?id=1-FEU9M3SXJmjFbo" target="_blank">Google Drive</a>
+                        </td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>
